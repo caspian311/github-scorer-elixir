@@ -1,0 +1,2 @@
+defmodule GithubScorer do
+end
