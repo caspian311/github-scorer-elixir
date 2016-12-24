@@ -11,12 +11,12 @@ defmodule GithubScorer.Mixfile do
   end
 
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :httpotion]]
   end
 
   defp deps do
     [
-      {:detergent, git: "https://github.com/devinus/detergent.git", tag: "0.3.0"}
+      {:httpotion, "~> 3.0.2"}
     ]
   end
 end
