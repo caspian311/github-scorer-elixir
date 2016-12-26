@@ -16,7 +16,8 @@ defmodule GithubScorer.Mixfile do
 
   defp deps do
     [
-      {:httpotion, "~> 3.0.2"}
+      {:httpotion, "~> 3.0.2"},
+      {:jsx, "~> 2.8.0"}
     ]
   end
 end
